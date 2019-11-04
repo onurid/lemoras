@@ -1,0 +1,491 @@
+INFO  10:43:13 Application - Main is invoked
+WARN  10:43:21 {"Success":false,"Data":null}
+WARN  10:45:38 {"Success":false,"Data":null}
+WARN  10:45:39 {"Success":false,"Data":null}
+INFO  10:51:06 Application - Main is invoked
+WARN  10:51:10 {"Success":false,"Data":null}
+WARN  10:51:13 {"Success":false,"Data":null}
+INFO  10:53:20 Application - Main is invoked
+WARN  10:53:23 {"Success":false,"Data":null}
+WARN  10:53:26 {"Success":false,"Data":null}
+INFO  10:59:19 Application - Main is invoked
+WARN  10:59:23 {"Success":false,"Data":null}
+WARN  10:59:30 {"Success":false,"Data":null}
+INFO  11:10:00 Application - Main is invoked
+WARN  11:10:03 {"Success":false,"Data":null}
+WARN  11:10:15 {"Success":false,"Data":null}
+INFO  11:11:02 Application - Main is invoked
+WARN  11:11:05 {"Success":false,"Data":null}
+INFO  11:13:02 Application - Main is invoked
+WARN  11:13:06 {"Success":false,"Data":null}
+INFO  11:19:49 Application - Main is invoked
+WARN  11:19:52 {"Success":false,"Data":null}
+WARN  11:19:56 {"Success":false,"Data":null}
+INFO  11:21:01 Application - Main is invoked
+WARN  11:21:05 {"Success":false,"Data":null}
+WARN  11:21:52 {"Success":false,"Data":null}
+INFO  11:28:51 Application - Main is invoked
+WARN  11:28:55 {"Success":false,"Data":null}
+WARN  11:29:16 {"Success":false,"Data":null}
+INFO  11:30:58 Application - Main is invoked
+WARN  11:31:02 {"Success":false,"Data":null}
+WARN  11:31:25 {"Success":false,"Data":null}
+INFO  12:41:18 Application - Main is invoked
+WARN  12:41:24 {"Success":false,"Data":null}
+WARN  12:41:26 {"Success":false,"Data":null}
+WARN  12:42:15 {"Success":false,"Data":null}
+WARN  12:43:24 {"Success":false,"Data":null}
+INFO  12:56:13 Application - Main is invoked
+WARN  12:56:18 {"Success":false,"Data":null}
+WARN  12:56:21 {"Success":false,"Data":null}
+WARN  12:56:21 {"Success":false,"Data":null}
+WARN  12:56:32 {"Success":false,"Data":null}
+WARN  12:56:42 {"Success":false,"Data":null}
+INFO  01:00:16 Application - Main is invoked
+WARN  01:00:21 {"Success":false,"Data":null}
+INFO  01:03:57 Application - Main is invoked
+WARN  01:04:02 {"Success":false,"Data":null}
+WARN  01:04:04 {"Success":false,"Data":null}
+INFO  01:04:51 Application - Main is invoked
+WARN  01:04:56 {"Success":false,"Data":null}
+INFO  01:12:26 Application - Main is invoked
+WARN  01:12:31 {"Success":false,"Data":null}
+WARN  01:12:34 {"Success":false,"Data":null}
+WARN  01:12:34 {"Success":false,"Data":null}
+WARN  01:12:46 {"Success":false,"Data":{"Message":"User is not found!"}}
+INFO  01:15:20 Application - Main is invoked
+WARN  01:15:25 {"Success":false,"Data":null}
+WARN  01:15:40 {"Success":false,"Data":null}
+WARN  01:15:40 {"Success":false,"Data":null}
+INFO  03:14:48 Application - Main is invoked
+WARN  03:14:53 {"Success":false,"Data":null}
+WARN  03:15:03 {"Success":false,"Data":null}
+WARN  03:15:04 {"Success":false,"Data":null}
+WARN  03:15:11 {"Success":false,"Data":null}
+WARN  03:15:11 {"Success":false,"Data":null}
+INFO  03:16:41 Application - Main is invoked
+WARN  03:16:45 {"Success":false,"Data":null}
+WARN  03:17:01 {"Success":false,"Data":null}
+WARN  03:17:01 {"Success":false,"Data":null}
+INFO  03:34:07 Application - Main is invoked
+WARN  03:34:11 {"Success":false,"Data":null}
+WARN  03:34:23 {"Success":false,"Data":null}
+WARN  03:34:24 {"Success":false,"Data":null}
+INFO  03:40:44 Application - Main is invoked
+WARN  03:40:48 {"Success":false,"Data":null}
+WARN  03:40:58 {"Success":false,"Data":null}
+WARN  03:40:59 {"Success":false,"Data":null}
+INFO  03:45:34 Application - Main is invoked
+WARN  03:45:38 {"Success":false,"Data":null}
+WARN  03:45:51 {"Success":false,"Data":null}
+WARN  03:45:51 {"Success":false,"Data":null}
+INFO  03:55:00 Application - Main is invoked
+WARN  03:55:04 {"Success":false,"Data":null}
+WARN  03:55:13 {"Success":false,"Data":null}
+WARN  03:55:18 {"Success":false,"Data":null}
+INFO  03:58:56 Application - Main is invoked
+WARN  03:59:06 {"Success":false,"Data":null}
+WARN  03:59:15 {"Success":false,"Data":null}
+WARN  03:59:16 {"Success":false,"Data":null}
+INFO  04:01:43 Application - Main is invoked
+WARN  04:01:47 {"Success":false,"Data":null}
+WARN  04:01:56 {"Success":false,"Data":null}
+WARN  04:01:57 {"Success":false,"Data":null}
+INFO  04:10:58 Application - Main is invoked
+WARN  04:11:02 {"Success":false,"Data":null}
+WARN  04:11:10 {"Success":false,"Data":null}
+WARN  04:11:10 {"Success":false,"Data":null}
+INFO  04:13:55 Application - Main is invoked
+WARN  04:13:59 {"Success":false,"Data":null}
+WARN  04:14:14 {"Success":false,"Data":{"Message":"User is not found!"}}
+WARN  04:14:27 {"Success":false,"Data":{"Message":"User is not found!"}}
+WARN  04:14:39 {"Success":false,"Data":null}
+WARN  04:14:39 {"Success":false,"Data":null}
+WARN  04:14:52 {"Success":false,"Data":null}
+WARN  04:15:09 {"Success":false,"Data":null}
+INFO  04:16:07 Application - Main is invoked
+INFO  04:21:35 Application - Main is invoked
+WARN  04:21:39 {"Success":false,"Data":null}
+WARN  04:21:49 {"Success":false,"Data":null}
+WARN  04:21:49 {"Success":false,"Data":null}
+WARN  04:21:55 {"Success":false,"Data":null}
+WARN  04:21:57 {"Success":false,"Data":null}
+INFO  04:31:26 Application - Main is invoked
+WARN  04:31:30 {"Success":false,"Data":null}
+WARN  04:31:36 {"Success":false,"Data":null}
+INFO  04:45:45 Application - Main is invoked
+WARN  04:45:49 {"Success":false,"Data":null}
+INFO  04:47:19 Application - Main is invoked
+WARN  04:47:23 {"Success":false,"Data":null}
+INFO  04:49:58 Application - Main is invoked
+WARN  04:50:02 {"Success":false,"Data":null}
+WARN  04:50:08 {"Success":false,"Data":null}
+INFO  04:52:10 Application - Main is invoked
+WARN  04:52:14 {"Success":false,"Data":null}
+WARN  04:52:21 {"Success":false,"Data":null}
+INFO  04:58:48 Application - Main is invoked
+WARN  04:58:51 {"Success":false,"Data":null}
+WARN  04:58:57 {"Success":false,"Data":null}
+WARN  04:58:57 {"Success":false,"Data":null}
+WARN  04:59:00 {"Success":false,"Data":null}
+INFO  05:00:08 Application - Main is invoked
+WARN  05:00:12 {"Success":false,"Data":null}
+WARN  05:00:18 {"Success":false,"Data":null}
+WARN  05:00:24 {"Success":false,"Data":null}
+WARN  05:00:25 {"Success":false,"Data":null}
+WARN  05:00:29 {"Success":false,"Data":null}
+WARN  05:00:32 {"Success":false,"Data":null}
+INFO  05:03:00 Application - Main is invoked
+WARN  05:03:04 {"Success":false,"Data":null}
+WARN  05:03:12 {"Success":false,"Data":null}
+INFO  05:15:54 Application - Main is invoked
+WARN  05:15:58 {"Success":false,"Data":null}
+WARN  05:16:03 {"Success":false,"Data":null}
+INFO  05:20:39 Application - Main is invoked
+WARN  05:20:43 {"Success":false,"Data":null}
+WARN  05:20:49 {"Success":false,"Data":null}
+INFO  05:21:39 Application - Main is invoked
+WARN  05:21:43 {"Success":false,"Data":null}
+WARN  05:21:47 {"Success":false,"Data":null}
+INFO  05:23:03 Application - Main is invoked
+WARN  05:23:07 {"Success":false,"Data":null}
+WARN  05:23:12 {"Success":false,"Data":null}
+INFO  05:27:32 Application - Main is invoked
+WARN  05:27:36 {"Success":false,"Data":null}
+WARN  05:27:40 {"Success":false,"Data":null}
+WARN  05:27:43 {"Success":false,"Data":null}
+WARN  05:27:46 {"Success":false,"Data":null}
+WARN  05:27:49 {"Success":false,"Data":null}
+WARN  05:27:49 {"Success":false,"Data":null}
+WARN  05:27:53 {"Success":false,"Data":null}
+WARN  05:27:53 {"Success":false,"Data":null}
+WARN  05:27:53 {"Success":false,"Data":null}
+INFO  07:44:18 Application - Main is invoked
+WARN  07:44:22 {"Success":false,"Data":null}
+WARN  07:44:29 {"Success":false,"Data":null}
+WARN  07:44:29 {"Success":false,"Data":null}
+INFO  08:00:42 Application - Main is invoked
+WARN  08:00:47 {"Success":false,"Data":null}
+WARN  08:00:56 {"Success":false,"Data":null}
+WARN  08:00:56 {"Success":false,"Data":null}
+WARN  08:00:58 {"Success":false,"Data":null}
+WARN  08:01:01 {"Success":false,"Data":null}
+INFO  09:58:45 Application - Main is invoked
+WARN  09:58:50 {"Success":false,"Data":null}
+INFO  10:00:12 Application - Main is invoked
+WARN  10:00:17 {"Success":false,"Data":null}
+WARN  10:00:21 {"Success":false,"Data":null}
+WARN  10:00:21 {"Success":false,"Data":null}
+WARN  10:00:26 {"Success":false,"Data":null}
+WARN  10:00:34 {"Success":false,"Data":null}
+WARN  10:00:34 {"Success":false,"Data":null}
+WARN  10:00:45 {"Success":false,"Data":null}
+WARN  10:00:48 {"Success":false,"Data":null}
+WARN  10:00:49 {"Success":false,"Data":null}
+WARN  10:00:57 {"Success":false,"Data":null}
+WARN  10:00:57 {"Success":false,"Data":null}
+WARN  10:00:57 {"Success":false,"Data":null}
+WARN  10:01:12 {"Success":false,"Data":null}
+WARN  10:01:12 {"Success":false,"Data":null}
+WARN  10:01:12 {"Success":false,"Data":null}
+WARN  10:01:26 {"Success":false,"Data":null}
+WARN  10:01:47 {"Success":false,"Data":null}
+WARN  10:01:47 {"Success":false,"Data":null}
+WARN  10:01:54 {"Success":false,"Data":null}
+WARN  10:01:54 {"Success":false,"Data":null}
+WARN  10:01:54 {"Success":false,"Data":null}
+WARN  10:26:13 {"Success":false,"Data":null}
+WARN  10:26:14 {"Success":false,"Data":null}
+WARN  10:26:23 {"Success":false,"Data":null}
+INFO  10:29:22 Application - Main is invoked
+WARN  10:29:26 {"Success":false,"Data":null}
+WARN  10:29:30 {"Success":false,"Data":null}
+INFO  10:30:48 Application - Main is invoked
+WARN  10:30:52 {"Success":false,"Data":null}
+WARN  10:30:56 {"Success":false,"Data":null}
+WARN  10:31:00 {"Success":false,"Data":null}
+WARN  10:31:05 {"Success":false,"Data":null}
+WARN  10:31:05 {"Success":false,"Data":null}
+WARN  10:31:11 {"Success":false,"Data":null}
+WARN  10:31:14 {"Success":false,"Data":null}
+INFO  10:32:54 Application - Main is invoked
+WARN  10:32:59 {"Success":false,"Data":null}
+WARN  10:33:01 {"Success":false,"Data":null}
+INFO  10:34:49 Application - Main is invoked
+WARN  10:34:54 {"Success":false,"Data":null}
+WARN  10:35:12 {"Success":false,"Data":null}
+WARN  10:35:15 {"Success":false,"Data":null}
+INFO  10:37:11 Application - Main is invoked
+WARN  10:37:16 {"Success":false,"Data":null}
+WARN  10:37:20 {"Success":false,"Data":null}
+INFO  10:40:53 Application - Main is invoked
+WARN  10:40:57 {"Success":false,"Data":null}
+INFO  10:42:28 Application - Main is invoked
+WARN  10:42:32 {"Success":false,"Data":null}
+INFO  10:45:58 Application - Main is invoked
+WARN  10:46:06 {"Success":false,"Data":null}
+WARN  10:46:09 {"Success":false,"Data":null}
+WARN  10:46:16 {"Success":false,"Data":null}
+WARN  10:46:19 {"Success":false,"Data":null}
+WARN  10:46:19 {"Success":false,"Data":null}
+WARN  10:46:22 {"Success":false,"Data":null}
+INFO  10:52:21 Application - Main is invoked
+WARN  10:52:24 {"Success":false,"Data":null}
+INFO  12:12:38 Application - Main is invoked
+WARN  12:12:44 {"Success":false,"Data":null}
+WARN  12:12:51 {"Success":false,"Data":null}
+WARN  12:13:13 {"Success":false,"Data":null}
+INFO  12:13:47 Application - Main is invoked
+WARN  12:13:51 {"Success":false,"Data":null}
+WARN  12:13:55 {"Success":false,"Data":null}
+INFO  12:14:47 Application - Main is invoked
+WARN  12:14:50 {"Success":false,"Data":null}
+INFO  12:19:55 Application - Main is invoked
+INFO  12:20:27 Application - Main is invoked
+WARN  12:20:31 {"Success":false,"Data":null}
+INFO  12:21:27 Application - Main is invoked
+WARN  12:21:30 {"Success":false,"Data":null}
+ERROR 12:21:50 The 'MySQLNumberTypeMapping' does not support value conversions. Support for value conversions typically requires changes in the database provider.
+WARN  12:21:50 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:24:24 Application - Main is invoked
+WARN  12:24:28 {"Success":false,"Data":null}
+INFO  12:26:39 Application - Main is invoked
+WARN  12:26:43 {"Success":false,"Data":null}
+INFO  12:28:40 Application - Main is invoked
+WARN  12:28:44 {"Success":false,"Data":null}
+ERROR 12:28:47 No component for supporting the service Lemoras.Remora.Core.IWorkContextService was found
+WARN  12:28:47 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:29:29 Application - Main is invoked
+WARN  12:29:33 {"Success":false,"Data":null}
+ERROR 12:29:36 No component for supporting the service Lemoras.Remora.Core.IWorkContextService was found
+WARN  12:29:36 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:31:20 Application - Main is invoked
+WARN  12:31:23 {"Success":false,"Data":null}
+ERROR 12:31:28 No component for supporting the service Lemoras.Remora.Core.IWorkContextService was found
+WARN  12:31:28 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:32:11 Application - Main is invoked
+WARN  12:32:15 {"Success":false,"Data":null}
+INFO  12:32:49 Application - Main is invoked
+WARN  12:32:53 {"Success":false,"Data":null}
+INFO  12:34:13 Application - Main is invoked
+WARN  12:34:17 {"Success":false,"Data":null}
+INFO  12:35:16 Application - Main is invoked
+WARN  12:35:21 {"Success":false,"Data":null}
+INFO  12:36:35 Application - Main is invoked
+WARN  12:36:39 {"Success":false,"Data":null}
+INFO  12:39:22 Application - Main is invoked
+WARN  12:39:26 {"Success":false,"Data":null}
+INFO  12:43:17 Application - Main is invoked
+WARN  12:43:21 {"Success":false,"Data":null}
+INFO  12:48:20 Application - Main is invoked
+WARN  12:48:24 {"Success":false,"Data":null}
+INFO  12:50:05 Application - Main is invoked
+WARN  12:50:08 {"Success":false,"Data":null}
+INFO  12:51:44 Application - Main is invoked
+WARN  12:51:47 {"Success":false,"Data":null}
+INFO  12:53:00 Application - Main is invoked
+WARN  12:53:04 {"Success":false,"Data":null}
+INFO  12:54:45 Application - Main is invoked
+WARN  12:54:49 {"Success":false,"Data":null}
+INFO  12:57:15 Application - Main is invoked
+WARN  12:57:19 {"Success":false,"Data":null}
+INFO  12:58:46 Application - Main is invoked
+WARN  12:58:50 {"Success":false,"Data":null}
+INFO  01:06:43 Application - Main is invoked
+WARN  01:06:47 {"Success":false,"Data":null}
+INFO  01:08:53 Application - Main is invoked
+INFO  01:09:15 Application - Main is invoked
+WARN  01:09:19 {"Success":false,"Data":null}
+INFO  01:11:53 Application - Main is invoked
+WARN  01:11:58 {"Success":false,"Data":null}
+INFO  01:12:36 Application - Main is invoked
+WARN  01:12:39 {"Success":false,"Data":null}
+INFO  05:44:28 Application - Main is invoked
+INFO  05:45:55 Application - Main is invoked
+INFO  05:46:42 Application - Main is invoked
+INFO  05:47:46 Application - Main is invoked
+INFO  06:27:40 Application - Main is invoked
+INFO  06:55:41 Application - Main is invoked
+INFO  06:56:31 Application - Main is invoked
+INFO  06:56:59 Application - Main is invoked
+WARN  06:57:04 {"Success":false,"Data":null}
+INFO  06:57:17 Application - Main is invoked
+WARN  06:57:22 {"Success":false,"Data":null}
+INFO  07:17:49 Application - Main is invoked
+WARN  07:17:56 {"Success":false,"Data":null}
+WARN  07:18:00 {"Success":false,"Data":null}
+WARN  07:18:01 {"Success":false,"Data":null}
+WARN  07:18:15 {"Success":false,"Data":null}
+WARN  07:18:16 {"Success":false,"Data":null}
+WARN  07:18:20 {"Success":false,"Data":null}
+WARN  07:18:25 {"Success":false,"Data":null}
+INFO  07:23:09 Application - Main is invoked
+WARN  07:23:15 {"Success":false,"Data":null}
+WARN  07:23:49 {"Success":false,"Data":null}
+INFO  07:26:07 Application - Main is invoked
+WARN  07:26:13 {"Success":false,"Data":null}
+WARN  07:26:19 {"Success":false,"Data":null}
+ERROR 07:26:37 No such host is known
+WARN  07:26:37 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+WARN  07:26:40 {"Success":false,"Data":null}
+WARN  07:26:47 {"Success":false,"Data":null}
+WARN  07:26:47 {"Success":false,"Data":null}
+WARN  07:26:49 {"Success":false,"Data":null}
+WARN  07:26:52 {"Success":false,"Data":null}
+WARN  07:26:53 {"Success":false,"Data":null}
+WARN  07:27:02 {"Success":false,"Data":null}
+WARN  07:27:02 {"Success":false,"Data":null}
+WARN  07:27:08 {"Success":false,"Data":null}
+WARN  07:27:08 {"Success":false,"Data":null}
+WARN  07:27:12 {"Success":false,"Data":null}
+WARN  07:27:18 {"Success":false,"Data":null}
+WARN  07:27:18 {"Success":false,"Data":null}
+WARN  07:27:22 {"Success":false,"Data":null}
+WARN  07:27:22 {"Success":false,"Data":null}
+WARN  07:27:22 {"Success":false,"Data":null}
+WARN  07:27:25 {"Success":false,"Data":null}
+WARN  07:27:28 {"Success":false,"Data":null}
+WARN  07:27:32 {"Success":false,"Data":null}
+WARN  07:27:32 {"Success":false,"Data":null}
+WARN  07:27:35 {"Success":false,"Data":null}
+WARN  07:27:35 {"Success":false,"Data":null}
+WARN  07:27:35 {"Success":false,"Data":null}
+WARN  07:27:54 {"Success":false,"Data":null}
+WARN  07:27:54 {"Success":false,"Data":null}
+WARN  07:27:54 {"Success":false,"Data":null}
+WARN  07:35:41 {"Success":false,"Data":null}
+WARN  07:35:42 {"Success":false,"Data":null}
+WARN  07:35:46 {"Success":false,"Data":null}
+WARN  07:35:47 {"Success":false,"Data":null}
+WARN  07:35:48 {"Success":false,"Data":null}
+INFO  07:37:47 Application - Main is invoked
+WARN  07:37:53 {"Success":false,"Data":null}
+WARN  07:38:01 {"Success":false,"Data":null}
+WARN  07:38:01 {"Success":false,"Data":null}
+WARN  07:38:12 {"Success":false,"Data":null}
+WARN  07:38:13 {"Success":false,"Data":null}
+WARN  07:38:15 {"Success":false,"Data":null}
+WARN  07:39:09 {"Success":false,"Data":null}
+WARN  07:39:09 {"Success":false,"Data":null}
+WARN  07:39:32 {"Success":false,"Data":null}
+WARN  07:39:32 {"Success":false,"Data":null}
+INFO  07:40:33 Application - Main is invoked
+WARN  07:40:39 {"Success":false,"Data":null}
+WARN  07:40:54 {"Success":false,"Data":null}
+WARN  07:40:55 {"Success":false,"Data":null}
+WARN  07:40:57 {"Success":false,"Data":null}
+INFO  07:42:21 Application - Main is invoked
+WARN  07:42:26 {"Success":false,"Data":null}
+WARN  07:42:29 {"Success":false,"Data":null}
+WARN  07:42:52 {"Success":false,"Data":null}
+WARN  07:42:52 {"Success":false,"Data":null}
+WARN  07:42:55 {"Success":false,"Data":null}
+INFO  07:43:31 Application - Main is invoked
+WARN  07:43:36 {"Success":false,"Data":null}
+WARN  07:44:04 {"Success":false,"Data":null}
+WARN  07:44:05 {"Success":false,"Data":null}
+WARN  07:44:08 {"Success":false,"Data":null}
+INFO  07:44:39 Application - Main is invoked
+WARN  07:44:45 {"Success":false,"Data":null}
+WARN  07:44:55 {"Success":false,"Data":null}
+WARN  07:46:35 {"Success":false,"Data":null}
+WARN  07:49:06 {"Success":false,"Data":null}
+WARN  07:54:58 {"Success":false,"Data":null}
+WARN  07:54:59 {"Success":false,"Data":null}
+WARN  07:55:01 {"Success":false,"Data":null}
+WARN  07:56:21 {"Success":false,"Data":null}
+WARN  07:56:22 {"Success":false,"Data":null}
+WARN  07:56:24 {"Success":false,"Data":null}
+WARN  07:59:11 {"Success":false,"Data":null}
+WARN  07:59:11 {"Success":false,"Data":null}
+WARN  07:59:14 {"Success":false,"Data":null}
+WARN  07:59:20 {"Success":false,"Data":null}
+WARN  07:59:21 {"Success":false,"Data":null}
+WARN  08:00:25 {"Success":false,"Data":null}
+WARN  08:00:25 {"Success":false,"Data":null}
+WARN  08:00:28 {"Success":false,"Data":null}
+WARN  08:02:48 {"Success":false,"Data":null}
+WARN  08:02:49 {"Success":false,"Data":null}
+WARN  08:02:58 {"Success":false,"Data":null}
+WARN  08:03:05 {"Success":false,"Data":null}
+WARN  08:03:16 {"Success":false,"Data":null}
+WARN  08:03:56 {"Success":false,"Data":null}
+WARN  08:06:54 {"Success":false,"Data":null}
+INFO  08:07:57 Application - Main is invoked
+WARN  08:08:03 {"Success":false,"Data":null}
+WARN  08:08:13 {"Success":false,"Data":null}
+WARN  08:08:13 {"Success":false,"Data":null}
+WARN  08:08:16 {"Success":false,"Data":null}
+WARN  08:08:22 {"Success":false,"Data":null}
+WARN  08:08:31 {"Success":false,"Data":null}
+WARN  08:11:37 {"Success":false,"Data":null}
+INFO  08:12:37 Application - Main is invoked
+WARN  08:12:42 {"Success":false,"Data":null}
+WARN  08:13:06 {"Success":false,"Data":null}
+WARN  08:13:13 {"Success":false,"Data":null}
+WARN  08:13:43 {"Success":false,"Data":null}
+ERROR 08:13:48 An error occurred while updating the entries. See the inner exception for details.
+WARN  08:13:48 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+WARN  08:14:09 {"Success":false,"Data":null}
+WARN  08:16:39 {"Success":false,"Data":null}
+WARN  08:19:14 {"Success":false,"Data":null}
+WARN  08:20:26 {"Success":false,"Data":null}
+WARN  08:21:39 {"Success":false,"Data":null}
+WARN  08:22:16 {"Success":false,"Data":null}
+ERROR 08:22:26 An error occurred while updating the entries. See the inner exception for details.
+WARN  08:22:26 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  10:14:24 Application - Main is invoked
+WARN  10:14:32 {"Success":false,"Data":null}
+WARN  10:14:36 {"Success":false,"Data":null}
+WARN  10:14:39 {"Success":false,"Data":null}
+WARN  10:14:40 {"Success":false,"Data":null}
+WARN  10:14:57 {"Success":false,"Data":null}
+INFO  10:42:54 Application - Main is invoked
+WARN  10:43:00 {"Success":false,"Data":null}
+WARN  10:43:04 {"Success":false,"Data":null}
+ERROR 10:43:34 An exception has been raised that is likely due to a transient failure.
+WARN  10:43:34 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  10:59:31 Application - Main is invoked
+WARN  10:59:37 {"Success":false,"Data":null}
+WARN  10:59:41 {"Success":false,"Data":null}
+WARN  10:59:42 {"Success":false,"Data":null}
+INFO  11:05:09 Application - Main is invoked
+WARN  11:05:14 {"Success":false,"Data":null}
+WARN  11:05:28 {"Success":false,"Data":null}
+WARN  11:05:29 {"Success":false,"Data":null}
+WARN  11:05:32 {"Success":false,"Data":null}
+WARN  11:05:54 {"Success":false,"Data":null}
+INFO  06:36:48 Application - Main is invoked
+INFO  06:37:56 Application - Main is invoked
+WARN  06:38:02 {"Success":false,"Data":null}
+WARN  06:41:15 {"Success":false,"Data":null}
+WARN  06:41:29 {"Success":false,"Data":null}
+WARN  06:41:30 {"Success":false,"Data":null}
+WARN  06:41:42 {"Success":false,"Data":null}
+WARN  06:41:50 {"Success":false,"Data":null}
+INFO  07:13:20 Application - Main is invoked
+WARN  07:14:23 {"Success":false,"Data":null}
+WARN  07:14:29 {"Success":false,"Data":null}
+WARN  07:15:09 {"Success":false,"Data":null}
+WARN  07:15:09 {"Success":false,"Data":null}
+WARN  07:15:11 {"Success":false,"Data":null}
+WARN  07:15:11 {"Success":false,"Data":null}
+WARN  07:15:12 {"Success":false,"Data":null}
+WARN  07:15:12 {"Success":false,"Data":null}
+WARN  07:15:21 {"Success":false,"Data":null}
+WARN  07:15:21 {"Success":false,"Data":null}
+WARN  07:15:40 {"Success":false,"Data":null}
+WARN  07:15:40 {"Success":false,"Data":null}
+WARN  07:15:42 {"Success":false,"Data":null}
+WARN  07:15:42 {"Success":false,"Data":null}
+WARN  07:15:43 {"Success":false,"Data":null}
+WARN  07:15:43 {"Success":false,"Data":null}
+WARN  07:16:28 {"Success":false,"Data":null}
+INFO  07:17:36 Application - Main is invoked
+WARN  07:17:41 {"Success":false,"Data":null}
+WARN  07:17:41 {"Success":false,"Data":null}
+INFO  07:18:07 Application - Main is invoked
+WARN  07:18:12 {"Success":false,"Data":null}
+INFO  07:18:51 Application - Main is invoked
+WARN  07:18:56 {"Success":false,"Data":null}
+WARN  07:19:01 {"Success":false,"Data":null}

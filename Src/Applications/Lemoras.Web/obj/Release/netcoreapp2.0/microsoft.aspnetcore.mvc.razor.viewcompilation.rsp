@@ -1,0 +1,5 @@
+C:\Projects\lemoras\Src\Applications\Lemoras.Web
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Lemoras.Web
+--content-root=C:\Projects\lemoras\Src\Applications\Lemoras.Web
+--file=

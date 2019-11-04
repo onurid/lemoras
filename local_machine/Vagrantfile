@@ -1,0 +1,100 @@
+
+# Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
+VAGRANTFILE_API_VERSION = "2"
+
+unless Vagrant.has_plugin?("vagrant-docker-compose")
+  system("vagrant plugin install vagrant-docker-compose")
+  puts "Dependencies installed, please try the command again."
+  exit
+end
+
+Vagrant.configure("2") do |config|
+  
+  # Dev.
+  config.vm.define "dev" do | dev |
+  
+	dev.vm.network :public_network, ip: "192.168.1.17"
+	dev.vm.network :private_network, ip: "10.141.100.18"
+	
+    dev.vm.box = "ubuntu/bionic64"
+
+    dev.vm.provider :virtualbox do |v|
+      v.gui = false
+      v.memory = 1024
+      v.cpus = 1
+    end
+
+    dev.vm.provision "file", source: "clone.sh", destination: "clone.sh"
+
+    dev.vm.provision :shell, inline: "apt-get update"
+    
+	dev.vm.provision "shell", path: "./clone.sh"
+	
+	dev.vm.provision :docker
+    dev.vm.provision :docker_compose, yml: "/home/vagrant/lemoras_devops/environment/development/docker-compose.yml", run:"always", rebuild: true 
+  end
+  
+  
+    # Prod.
+  config.vm.define "prod" do | prod |
+	
+	prod.vm.network :public_network, ip: "192.168.1.15"
+	prod.vm.network :public_network, ip: "192.168.2.15"
+	
+	#prod.vm.network "private_network", ip: "192.168.2.21", adapter: 1
+	#prod.ssh.forward_agent = false 
+    prod.vm.box = "ubuntu/bionic64"
+
+    # Forward ports
+    #prod.vm.network "forwarded_port", guest: 80, host: 8080 # run with administrator, sudo 
+    
+	#    test.disksize.size = '10GB'
+
+    prod.vm.provider :virtualbox do |v|
+      v.gui = false
+      v.memory = 2048
+      v.cpus = 2
+    end
+
+    prod.vm.provision "file", source: "clone.sh", destination: "clone.sh"
+
+    prod.vm.provision :shell, inline: "apt-get update"
+    
+	prod.vm.provision "shell", path: "./clone.sh"
+	
+	prod.vm.provision :docker
+    prod.vm.provision :docker_compose, yml: "/home/vagrant/lemoras_devops/environment/production/docker-compose.yml", run:"always", rebuild: true 
+  
+  end
+  
+  
+   # gateway.
+  config.vm.define "gateway" do | gateway |
+  
+	gateway.vm.network :public_network, ip: "192.168.1.21", :mac => "7AB74FFF41C1", route: "192.168.1.1"
+	#gateway.vm.network :private_network, ip: "192.168.1.21"
+	
+    gateway.vm.box = "ubuntu/bionic64"
+
+    # Forward ports
+    gateway.vm.network "forwarded_port", guest: 80, host: 80 # run with administrator, sudo 
+    
+
+    gateway.vm.provider :virtualbox do |v|
+      v.gui = false
+      v.memory = 1024
+      v.cpus = 1
+    end
+
+    gateway.vm.provision "file", source: "clone.sh", destination: "clone.sh"
+
+    gateway.vm.provision :shell, inline: "apt-get update"
+    
+	gateway.vm.provision "shell", path: "./clone.sh"
+	
+	gateway.vm.provision :docker
+    gateway.vm.provision :docker_compose, yml: "/home/vagrant/lemoras_devops/public_gateway/docker-compose.yml", run:"always", rebuild: true 
+  end
+
+
+end

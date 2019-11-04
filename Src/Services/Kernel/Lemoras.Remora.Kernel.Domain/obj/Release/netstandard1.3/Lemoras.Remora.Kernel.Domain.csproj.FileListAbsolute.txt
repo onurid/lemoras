@@ -1,0 +1,12 @@
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\bin\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.deps.json
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\bin\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.dll
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\bin\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.pdb
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\bin\Release\netstandard1.3\Lemoras.Remora.Core.dll
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\bin\Release\netstandard1.3\Lemoras.Remora.Core.pdb
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\obj\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.csprojAssemblyReference.cache
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\obj\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\obj\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.AssemblyInfoInputs.cache
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\obj\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.AssemblyInfo.cs
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\obj\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.csproj.CopyComplete
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\obj\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.dll
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Domain\obj\Release\netstandard1.3\Lemoras.Remora.Kernel.Domain.pdb

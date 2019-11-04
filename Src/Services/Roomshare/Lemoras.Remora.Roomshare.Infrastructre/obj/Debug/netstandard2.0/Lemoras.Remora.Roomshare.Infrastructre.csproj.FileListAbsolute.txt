@@ -1,0 +1,14 @@
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\bin\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.deps.json
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\bin\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.dll
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\bin\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.pdb
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\bin\Debug\netstandard2.0\Lemoras.Remora.Core.dll
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\bin\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Domain.dll
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\bin\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Domain.pdb
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\bin\Debug\netstandard2.0\Lemoras.Remora.Core.pdb
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\obj\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.csprojAssemblyReference.cache
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\obj\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.csproj.CoreCompileInputs.cache
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\obj\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.AssemblyInfoInputs.cache
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\obj\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.AssemblyInfo.cs
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\obj\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.csproj.CopyComplete
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\obj\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.dll
+C:\Projects\lemoras\Src\Services\Roomshare\Lemoras.Remora.Roomshare.Infrastructre\obj\Debug\netstandard2.0\Lemoras.Remora.Roomshare.Infrastructre.pdb

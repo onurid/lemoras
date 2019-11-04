@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OYASAR.Framework.EFPostgreSQL" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lemoras.Remora.Roomshare.Domain\Lemoras.Remora.Roomshare.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\CommonContext\" />
+    <Folder Include="Repositories\MemberContext\" />
+  </ItemGroup>
+
+</Project>

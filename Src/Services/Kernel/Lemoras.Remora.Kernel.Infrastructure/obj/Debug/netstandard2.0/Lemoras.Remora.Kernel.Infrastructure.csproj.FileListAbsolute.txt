@@ -1,0 +1,14 @@
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\bin\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.deps.json
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\bin\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.dll
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\bin\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.pdb
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\bin\Debug\netstandard2.0\Lemoras.Remora.Kernel.Domain.dll
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\bin\Debug\netstandard2.0\Lemoras.Remora.Kernel.Domain.pdb
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\obj\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.csprojAssemblyReference.cache
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\obj\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\obj\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\obj\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.AssemblyInfo.cs
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\obj\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.csproj.CopyComplete
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\obj\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.dll
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\obj\Debug\netstandard2.0\Lemoras.Remora.Kernel.Infrastructure.pdb
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\bin\Debug\netstandard2.0\Lemoras.Remora.Core.dll
+C:\Projects\lemoras\Src\Services\Kernel\Lemoras.Remora.Kernel.Infrastructure\bin\Debug\netstandard2.0\Lemoras.Remora.Core.pdb

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Lemoras.Remora.Core</id>
+    <version>1.2.0</version>
+    <authors>lemoras.com</authors>
+    <owners>lemoras.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://onuryasar.org/logo.png</iconUrl>
+    <description>Lemoras.Remora.Core</description>
+    <copyright>lemoras.com</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="OYASAR.Framework.Core" version="1.0.36" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Projects\lemoras\Src\Common\Lemoras.Remora.Core\bin\Debug\netstandard1.3\Lemoras.Remora.Core.dll" target="lib\netstandard1.3\Lemoras.Remora.Core.dll" />
+  </files>
+</package>

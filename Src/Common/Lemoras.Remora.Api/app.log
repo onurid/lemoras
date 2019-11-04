@@ -1,0 +1,18 @@
+INFO  11:26:44 Application - Main is invoked
+ERROR 11:26:47 No component for supporting the service Lemoras.Remora.Core.IWorkContextService was found
+WARN  11:26:47 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+ERROR 11:26:50 No component for supporting the service Lemoras.Remora.Core.IWorkContextService was found
+WARN  11:26:50 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+ERROR 11:26:56 No component for supporting the service Lemoras.Remora.Core.IWorkContextService was found
+WARN  11:26:56 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  11:28:16 Application - Main is invoked
+WARN  11:28:44 {"Success":false,"Data":null}
+WARN  11:28:55 {"Success":false,"Data":null}
+INFO  11:29:36 Application - Main is invoked
+WARN  11:29:38 {"Success":false,"Data":null}
+WARN  11:29:42 {"Success":false,"Data":null}
+INFO  05:50:15 Application - Main is invoked
+INFO  06:57:38 Application - Main is invoked
+WARN  06:57:42 {"Success":false,"Data":null}
+WARN  06:57:42 {"Success":false,"Data":null}
+WARN  06:57:46 {"Success":false,"Data":null}
