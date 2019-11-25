@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  lemoras.remora.security.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  lemoras.remora.admin.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  lemoras.remora.roomshare.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      

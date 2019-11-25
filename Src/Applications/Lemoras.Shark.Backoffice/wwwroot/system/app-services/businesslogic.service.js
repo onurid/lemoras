@@ -5,8 +5,8 @@
         .module('app')
         .factory('BusinessLogicService', BusinessLogicService);
     
-    var businessLogicApiUrl = baseURL + '/api' + kernelPath + '/business-logic';
-    var businessServiceApiUrl = baseURL + '/api' + kernelPath + '/business-service';
+    var businessLogicApiUrl = baseURL + '/api' + adminPath + '/business-logic';
+    var businessServiceApiUrl = baseURL + '/api' + adminPath + '/business-service';
 
     BusinessLogicService.$inject = ['getjson'];
     function BusinessLogicService(getjson) {

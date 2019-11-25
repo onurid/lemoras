@@ -1,0 +1,28 @@
+127.0.0.1	localhost
+127.0.1.1	os-arch-pc
+::1	localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+#192.168.1.15 api.lemoras.com
+#192.168.2.15 api.lemoras.com
+
+#127.0.0.1 dev.backoffice.lemoras.com
+127.0.0.1 dev.lemoras.site
+127.0.0.1 dev.api.lemoras.com
+
+#127.0.0.1 debug.backoffice.lemoras.com
+127.0.0.1 debug.lemoras.site
+127.0.0.1 debug.api.lemoras.com
+192.168.1.17 security.lemoras.com
+#10.141.100.18 security.lemoras.com
+
+## -- rasp 4
+#192.168.2.15 database.lemoras.com
+#192.168.2.15 dev.cache.lemoras.com
+## --
+
+## -- vagant
+192.168.1.17 dev.database.lemoras.com
+192.168.1.17 dev.cache.lemoras.com
+## --

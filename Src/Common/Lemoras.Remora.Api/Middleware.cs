@@ -1,8 +1,6 @@
 using System;
 using System.Text;
 using System.Threading.Tasks;
-using Lemoras.Remora.Core.Factory;
-using Lemoras.Remora.Core.Manager;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
@@ -28,18 +26,15 @@ namespace Lemoras.Remora.Api
         {
             ILog log = null;
 
-            var returnResult = new Result();
+            Result returnResult = null;
 
             byte[] data = null;
 
             try
             {
-                log = Invoke<IManagerFactory>.Call().GetLogManger();
+                log = Invoke<ILog>.Call();
                 using (IocManager.Instance.BeginScope())
                 {
-                    if (!context.Request.Path.Value.Contains("/ping"))
-                        RoleManager.IsAccess();
-
                     await _next(context);
                 }
             }
@@ -75,7 +70,7 @@ namespace Lemoras.Remora.Api
             }
             finally
             {
-                if (log != null)
+                if (log != null && returnResult != null)
                     log.Write(returnResult);
             }
 

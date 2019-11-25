@@ -1,0 +1,24 @@
+FROM microsoft/aspnetcore:2.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+FROM microsoft/aspnetcore-build:2.0 AS build
+WORKDIR /src
+COPY ["Services/Roomshare/Lemoras.Remora.Roomshare.Api/Lemoras.Remora.Roomshare.Api.csproj", "Services/Roomshare/Lemoras.Remora.Roomshare.Api/"]
+COPY ["Common/Lemoras.Remora.Api/Lemoras.Remora.Api.csproj", "Common/Lemoras.Remora.Api/"]
+COPY ["Common/Lemoras.Remora.Infrastrcutre/Lemoras.Remora.Infrastrcutre.csproj", "Common/Lemoras.Remora.Infrastrcutre/"]
+COPY ["Common/Lemoras.Remora.Core/Lemoras.Remora.Core.csproj", "Common/Lemoras.Remora.Core/"]
+COPY ["Services/Roomshare/Lemoras.Remora.Roomshare.Infrastructre/Lemoras.Remora.Roomshare.Infrastructre.csproj", "Services/Roomshare/Lemoras.Remora.Roomshare.Infrastructre/"]
+COPY ["Services/Roomshare/Lemoras.Remora.Roomshare.Domain/Lemoras.Remora.Roomshare.Domain.csproj", "Services/Roomshare/Lemoras.Remora.Roomshare.Domain/"]
+RUN dotnet restore "Services/Roomshare/Lemoras.Remora.Roomshare.Api/Lemoras.Remora.Roomshare.Api.csproj"
+COPY . .
+WORKDIR "/src/Services/Roomshare/Lemoras.Remora.Roomshare.Api"
+RUN dotnet build "Lemoras.Remora.Roomshare.Api.csproj" -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish "Lemoras.Remora.Roomshare.Api.csproj" -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "Lemoras.Remora.Roomshare.Api.dll"]

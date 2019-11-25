@@ -18,24 +18,31 @@
         return service;
 
         function GetUserApp(callback) {
-            getjson.getData(baseURL + '/api' + authPath + '/application')
-                .then(function (res) {
-                    callback(res.data);
-                });
+               callback($rootScope.applications); 
         }
 
-        function GetConfig(applicationId, callback) {
-            getjson.getData(baseURL + '/api' + authPath + '/config' + '/'  +  applicationId)
+        function GetConfig(callback) {
+            getjson.getData(baseURL + '/api' + adminPath + '/config')
                 .then(function (res) {
                     callback(res);
                 });
         }
-
-
-        function Login(username, password, callback) {
-            getjson.postData(baseURL + '/api' + authPath + '/token', { username: username, password: password })
-                .then(function (res) {
-                     callback(res);
+        
+        function Login(username, password, applicationId, callback) {
+            getjson.postData(baseURL + '/api' + authPath + '/token', { username: username, password: password, applicationInstanceId: applicationId })
+                .then(function (res) {                    
+                    if (res.data.token === undefined || res.data.token.trim() === '') {
+                        $rootScope.applications = res.data.applications;
+                        res.data.configData = undefined;
+                        callback(res);
+                    }
+                    else {
+                        service.SetCredentials(username, password, res.data.token);
+                        service.GetConfig(function (configData) {
+                            res.data.configData = configData.data;
+                            callback(res);
+                        });
+                    }
                 });
         }
 

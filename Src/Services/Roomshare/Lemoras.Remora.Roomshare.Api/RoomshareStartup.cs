@@ -17,8 +17,18 @@ namespace Lemoras.Remora.Roomshare.Api
         {
         }
 
+        public override void CustomConfigure()
+        {
+            RentContext.ConnectionString = _serviceDbConnection;
+            CommonContext.ConnectionString = _serviceDbConnection;
+            MemberContext.ConnectionString = _serviceDbConnection;
+            base.CustomConfigure();
+        }
+
         public override void CustomServiceRegister()
         {
+            base.CustomServiceRegister();
+
             IocManager.Instance.RegisterScoped(typeof(ICommonContext), typeof(CommonContext));
             IocManager.Instance.RegisterScoped(typeof(IRentContext), typeof(RentContext));
             IocManager.Instance.RegisterScoped(typeof(IMemberContext), typeof(MemberContext));

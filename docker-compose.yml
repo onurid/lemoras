@@ -1,0 +1,93 @@
+version: '3.4'
+
+services:
+  lemoras.remora.security.api:
+    image: ${DOCKER_REGISTRY-}lemorasremorasecurityapi
+    build:
+      context: .
+      dockerfile: src/Services/Security/Dockerfile
+    depends_on:
+      - db
+    container_name: lemoras.remora.security.api 
+    environment:
+            - SERVERNAME=lemoras.remora.security.api 
+    networks:
+          - "lemoras-remora-network"
+
+  lemoras.remora.admin.api:
+    image: ${DOCKER_REGISTRY-}lemorasremoraadminapi
+    build:
+      context: .
+      dockerfile: src/Services/Admin/Lemoras.Remora.Admin.Api/Dockerfile
+    depends_on:
+      - lemoras.remora.security.api
+    container_name: lemoras.remora.admin.api
+    environment:
+            - SERVERNAME=lemoras.remora.admin.api 
+    networks:
+          - "lemoras-remora-network"
+
+  lemoras.remora.roomshare.api:
+    image: ${DOCKER_REGISTRY-}lemorasremoraroomshareapi
+    build:
+      context: .
+      dockerfile: src/Services/Roomshare/Lemoras.Remora.Roomshare.Api/Dockerfile
+    depends_on:
+      - lemoras.remora.security.api
+    container_name: lemoras.remora.roomshare.api 
+    environment:
+            - SERVERNAME=lemoras.remora.roomshare.api
+    networks:
+          - "lemoras-remora-network"
+
+  lemoras.remora.gateway.reverseproxy:
+      build:
+        context: .
+        dockerfile: src/Gateways/Lemoras.Remora.Gateway.Base/Dockerfile
+      container_name: lemoras.remora.gateway.reverseproxy
+      environment:
+            - SERVERNAME=lemoras.remora.gateway.reverseproxy
+      networks:
+          - "lemoras-remora-network"
+      depends_on:
+        - lemoras.remora.security.api
+        - lemoras.remora.admin.api
+        - lemoras.remora.roomshare.api
+      restart: always
+      ports:
+          - "80:80"
+          
+  lemoras.remora.gateway.base:
+      depends_on:
+          - lemoras.remora.gateway.reverseproxy
+      image: nginx:alpine
+      networks:
+          - "lemoras-remora-network"
+      container_name: lemoras.remora.gateway.base
+      environment:
+            - SERVERNAME=lemoras.remora.gateway.base
+
+  db:
+      image: postgres
+      environment:
+          POSTGRES_DB: lemoras-db
+          POSTGRES_USER: lemoras
+          POSTGRES_PASSWORD: supersecret
+      volumes:
+          - db-data:/var/lib/postgresql/data
+          - ./scripts/:/docker-entrypoint-initdb.d/
+      networks:
+          - "lemoras-remora-network"
+      ports:
+          - 5432:5432
+      container_name: db
+      restart: always      
+
+networks:
+  lemoras-remora-network:
+    driver: bridge
+
+volumes:
+  db-data:
+    name: lemoras_db-data
+    driver: local

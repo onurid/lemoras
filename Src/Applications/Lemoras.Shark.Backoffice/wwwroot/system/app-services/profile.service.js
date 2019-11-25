@@ -5,7 +5,7 @@
         .module('app')
         .factory('ProfileService', ProfileService);
     
-    var profileApiUrl = baseURL + '/api' + kernelPath + '/myprofile';
+    var profileApiUrl = baseURL + '/api' + adminPath + '/myprofile';
     var zoeApiUrl = baseURL + '/api' + authPath + '/zoe';
     var logoutApiUrl = baseURL + '/api' + authPath + '/logout';
 

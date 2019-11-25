@@ -5,11 +5,11 @@
         .module('app')
         .factory('ApplicationService', ApplicationService);
 
-    var applicationApiUrl = baseURL + '/api' + kernelPath  + '/application';
+    var applicationApiUrl = baseURL + '/api' + adminPath  + '/application';
 
-    var applicationTypeApiUrl = baseURL + '/api' + kernelPath + '/application-type';
+    var applicationTypeApiUrl = baseURL + '/api' + adminPath + '/application-type';
 
-    var applicationModuleApiUrl = baseURL + '/api' + kernelPath + '/application-module';
+    var applicationModuleApiUrl = baseURL + '/api' + adminPath + '/application-module';
 
     ApplicationService.$inject = ['getjson'];
     function ApplicationService(getjson) {

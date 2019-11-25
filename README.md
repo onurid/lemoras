@@ -1,2 +1,0 @@
-# lemoras
-Sample Lemoras Projects As Multi Tenant Arcihtecture, Kernel Service is Monolithic App. It has include bounded Contexts. RoomShare service is microservice & it has include rich domain model. Security service is develop that write with golang. Database is PostgreSQL. Development environment managment is docker-compose. Production is docker swarm. 

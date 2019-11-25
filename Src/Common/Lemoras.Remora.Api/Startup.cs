@@ -1,6 +1,8 @@
-﻿using Lemoras.Remora.Api.Manager;
+﻿using System;
+using Lemoras.Remora.Api.Manager;
 using Lemoras.Remora.Api.Utils;
-using Lemoras.Remora.Core.Manager;
+using Lemoras.Remora.Core.Interfaces;
+using Lemoras.Remora.Infrastructre;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -10,6 +12,7 @@ using OYASAR.Framework.CastleWindsor;
 using OYASAR.Framework.Core.Helper;
 using OYASAR.Framework.Core.Interface;
 using OYASAR.Framework.Core.Manager;
+using OYASAR.Framework.EFProvider.NetCore.PostgreSQL;
 using OYASAR.Framework.Log4Net;
 using static OYASAR.Framework.Core.Helper.IocHelper;
 
@@ -17,15 +20,18 @@ namespace Lemoras.Remora.Api
 {
     public class Startup
     {
-        internal protected readonly string AuthDbConnection;
-        internal protected readonly string RedisConnection;
+        internal protected string _serviceDbConnection;
+        private static bool _isRegister = false;
 
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            _serviceDbConnection = Configuration.GetConnectionString("ServiceDbConnection");
+        }
 
-            AuthDbConnection = Configuration.GetConnectionString("AuthDbConnection");
-            RedisConnection = Configuration.GetConnectionString("RedisConnection");
+        public void SetKernelForWeb(string connectionString)
+        {
+            _serviceDbConnection = connectionString;
         }
 
         public IConfiguration Configuration { get; }
@@ -56,8 +62,6 @@ namespace Lemoras.Remora.Api
                 //app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
             }
-            
-            CacheManager.RedisHost = RedisConnection;
 
             CustomConfigure();
 
@@ -70,19 +74,27 @@ namespace Lemoras.Remora.Api
 
         public virtual void CustomConfigure()
         {
-            RoleManager.LockStatus = true;
+            KernelContext.ConnectionString = _serviceDbConnection;
         }
 
         public virtual void CustomServiceRegister()
         {
+            if (!_isRegister)
+            {
+                IocManager.Instance.RegisterScoped(typeof(IKernelContext), typeof(KernelContext));
 
+                var kernelContext = new Func<IServiceProvider, EFRepository<IKernelContext>>(
+                    provider => new EFRepository<IKernelContext>(provider.GetService<KernelContext>()));
+                IocManager.Instance.Register<IEFRepository<IKernelContext>, EFRepository<IKernelContext>>(kernelContext);
+                _isRegister = true;
+            }
         }
 
         public void ServicesRegister(IServiceCollection services)
         {
             WindsorIocManager.Instance.Initialize();
 
-            IocHelper.RegisterIntefaceBasedTypes(RegisterType.AsFullName ,true);
+            IocHelper.RegisterIntefaceBasedTypes(RegisterType.AsFullName, true);
 
             IocManager.Instance.Register<ILog, Log>();
 

@@ -5,7 +5,7 @@
         .module('app')
         .factory('LanguageService', LanguageService);
     
-    var LanguageApiUrl = baseURL + '/api' + kernelPath + '/language';
+    var LanguageApiUrl = baseURL + '/api' + adminPath + '/language';
 
     LanguageService.$inject = ['getjson'];
     function LanguageService(getjson) {

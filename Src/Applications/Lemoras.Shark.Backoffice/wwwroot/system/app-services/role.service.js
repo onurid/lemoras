@@ -5,11 +5,11 @@
         .module('app')
         .factory('RoleService', RoleService);
 
-    var roleApiUrl = baseURL + '/api' + kernelPath + '/role';
+    var roleApiUrl = baseURL + '/api' + adminPath + '/role';
 
-    var applicationRoleApiUrl = baseURL + '/api' + kernelPath + '/application-role';
+    var applicationRoleApiUrl = baseURL + '/api' + adminPath + '/application-role';
 
-    var roleAuthoriseApiUrl = baseURL + '/api' + kernelPath + '/role-authorise';
+    var roleAuthoriseApiUrl = baseURL + '/api' + adminPath + '/role-authorise';
 
     RoleService.$inject = ['getjson'];
     function RoleService(getjson) {

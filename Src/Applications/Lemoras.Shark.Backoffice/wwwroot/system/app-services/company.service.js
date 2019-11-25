@@ -5,9 +5,9 @@
         .module('app')
         .factory('CompanyService', CompanyService);
 
-    var companyApiUrl = baseURL + '/api' + kernelPath + '/company';
+    var companyApiUrl = baseURL + '/api' + adminPath + '/company';
 
-    var applicationInstanceApiUrl = baseURL + '/api' + kernelPath + '/application-instance';
+    var applicationInstanceApiUrl = baseURL + '/api' + adminPath + '/application-instance';
 
     CompanyService.$inject = ['getjson'];
     function CompanyService(getjson) {

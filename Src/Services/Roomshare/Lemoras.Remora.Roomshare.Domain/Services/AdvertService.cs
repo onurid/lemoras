@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Lemoras.Remora.Core.Interfaces;
 using Lemoras.Remora.Roomshare.Domain.Enums;
 using Lemoras.Remora.Roomshare.Domain.Interfaces;
 using Lemoras.Remora.Roomshare.Domain.Models.RentContext;
@@ -10,10 +11,12 @@ namespace Lemoras.Remora.Roomshare.Domain.Services
     public class AdvertService : IAdvertService
     {
         private readonly IAdvertRepository _repository;
+        private readonly ISessionManager _session;
 
         public AdvertService()
         {
             _repository = Invoke<IAdvertRepository>.Call();
+            _session = Invoke<ISessionManager>.Call();
         }
 
         public Advert Load(int id)
@@ -37,7 +40,7 @@ namespace Lemoras.Remora.Roomshare.Domain.Services
         {
             return _repository.GetAll();
         }
-
+        
         public void AdvertActive(int advertId)
         {
             var advert = Load(advertId);
@@ -54,7 +57,7 @@ namespace Lemoras.Remora.Roomshare.Domain.Services
             int districtId,
             HouseType houseType)
         {
-            var userId = 1;
+            int userId = (int) _session.GetCurrentSession().UserId;
             var advert = new Advert(
                 userId, 
                 advertType,
@@ -72,7 +75,7 @@ namespace Lemoras.Remora.Roomshare.Domain.Services
 
         public Advert CreateAdvert(AdvertType advertType, int houseId)
         {
-            var userId = 1;
+            int userId = (int)_session.GetCurrentSession().UserId;
             var advert = new Advert(userId, advertType, houseId);
 
             _repository.Insert(advert);

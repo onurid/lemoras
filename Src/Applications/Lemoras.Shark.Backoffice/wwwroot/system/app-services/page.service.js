@@ -5,7 +5,7 @@
         .module('app')
         .factory('PageService', PageService);
     
-    var pageApiUrl = baseURL + '/api' + kernelPath + '/page';
+    var pageApiUrl = baseURL + '/api' + adminPath + '/page';
 
     PageService.$inject = ['getjson'];
     function PageService(getjson) {

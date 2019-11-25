@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OYASAR.Framework.Core" Version="1.0.39" />
+    <PackageReference Include="OYASAR.Framework.Core" Version="1.0.41" />
   </ItemGroup>
 
 </Project>

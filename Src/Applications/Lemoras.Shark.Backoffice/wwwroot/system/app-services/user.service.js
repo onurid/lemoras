@@ -5,9 +5,9 @@
         .module('app')
         .factory('UserService', UserService);
 
-    var userApiUrl = baseURL + '/api' + kernelPath + '/user';
+    var userApiUrl = baseURL + '/api' + adminPath + '/user';
 
-    var userRoleApiUrl = baseURL + '/api' + kernelPath + '/user-role';
+    var userRoleApiUrl = baseURL + '/api' + adminPath + '/user-role';
 
     UserService.$inject = ['getjson'];
     function UserService(getjson) {

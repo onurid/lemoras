@@ -1,8 +1,8 @@
 
 var str = window.location.host;
 
-var baseURL = "http://" + str.replace("lemoras.site", "api.lemoras.com");
-var kernelPath = "/kernel";
+var baseURL = "http://" + str.replace("lemoras.site:8080", "api.lemoras.com");
+var adminPath = "/admin";
 var authPath = "/auth";
 
 (function () {
@@ -94,12 +94,17 @@ var authPath = "/auth";
                             return response.data;
                         }
                         else {
-                            notification.pushWarningNotify(response.data.data.message, isLogin);
+                            if (isLogin) {
+                                notification.pushWarningNotify(response.data.message, isLogin);
+                            } else {
+                                notification.pushWarningNotify(response.data.data.message, isLogin);
+                            }
                             return response.data;
                         }
                     }, function (response) {
                         // called asynchronously if an error occurs
                         // or server returns response with an error status.
+                        
                         notification.pushDangerNotify(response.data, isLogin);
                         return {
                             success: false, data: { message: "hata" }
@@ -219,18 +224,18 @@ var authPath = "/auth";
                 var config = JSON.parse(result);
                 $rootScope.config = config;
                 setRoute(config.root.route);
-		        var path = window.location.pathname.split('/')[1];
+                var path = window.location.pathname.split('/')[1];
 
-		        if ("templates" !== path) {
-	                var template = window.localStorage.getItem("template");
+                if ("templates" !== path) {
+                    var template = window.localStorage.getItem("template");
 			
-		            if ( template === null) {
-			            window.location.replace("./index.html#!/login");        
-		            }
-		            else {
-			            window.location.replace("./templates/" + template + "/index.html");
-		            }
-		        }		
+                    if ( template === null) {
+                        window.location.replace("./index.html#!/login");        
+                    }
+                    else {
+                        window.location.replace("./templates/" + template + "/index.html");
+                    }
+                }		
             }
             //var myDataPromise1 = getjson.getData($configUrl);  // http://localhost:5000/api/config  // bu kısım authservice ne alınacak
             //myDataPromise1.then(function (result) {

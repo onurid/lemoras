@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OYASAR.Framework.Core;
 
-namespace Lemoras.Remora.Kernel.Api.Controllers
+namespace Lemoras.Remora.Roomshare.Api.Controllers
 {
     [Produces("application/json")]
     [Route("api/roomshare/[controller]")]

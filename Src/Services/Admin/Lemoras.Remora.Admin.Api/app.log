@@ -1,0 +1,104 @@
+INFO  10:01:43 Application - Main is invoked
+WARN  10:02:09 {"Success":false,"Data":{"Message":"Could not find application-owned module or business logic."}}
+WARN  10:03:07 {"Success":false,"Data":{"Message":"Could not find application-owned module or business logic."}}
+WARN  10:03:29 {"Success":false,"Data":{"Message":"Could not find application-owned module or business logic."}}
+INFO  12:29:20 Application - Main is invoked
+INFO  12:29:37 Application - Main is invoked
+ERROR 12:29:43 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:29:44 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:30:11 Application - Main is invoked
+ERROR 12:30:29 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:30:29 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+ERROR 12:30:30 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:30:30 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:34:15 Application - Main is invoked
+INFO  12:36:51 Application - Main is invoked
+ERROR 12:36:56 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:36:56 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+ERROR 12:36:58 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:36:58 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+ERROR 12:37:31 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:37:31 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+ERROR 12:37:32 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:37:32 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:38:15 Application - Main is invoked
+ERROR 12:38:16 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:38:16 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:38:40 Application - Main is invoked
+INFO  12:38:54 Application - Main is invoked
+ERROR 12:38:55 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:38:55 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:43:19 Application - Main is invoked
+INFO  12:44:49 Application - Main is invoked
+ERROR 12:44:49 ComponentActivator: could not instantiate Lemoras.Remora.Admin.Business.WorkContextService
+WARN  12:44:49 {"Success":false,"Data":{"Message":"Unkown an error! Please, contact your administrator."}}
+INFO  12:47:26 Application - Main is invoked
+WARN  12:47:30 {"Success":false,"Data":{"Message":"The key sent was not found."}}
+WARN  12:47:44 {"Success":false,"Data":{"Message":"The key sent was not found."}}
+WARN  12:47:44 {"Success":false,"Data":null}
+WARN  12:47:46 {"Success":false,"Data":{"Message":"The key sent was not found."}}
+WARN  12:47:50 {"Success":false,"Data":null}
+WARN  12:48:01 {"Success":false,"Data":{"Message":"The key sent was not found."}}
+WARN  12:48:33 {"Success":false,"Data":null}
+WARN  12:49:20 {"Success":false,"Data":{"Message":"The key sent was not found."}}
+WARN  12:49:28 {"Success":false,"Data":null}
+WARN  12:49:40 {"Success":false,"Data":{"Message":"The key sent was not found."}}
+INFO  02:42:04 Application - Main is invoked
+INFO  06:23:25 Application - Main is invoked
+INFO  06:23:43 Application - Main is invoked
+INFO  06:25:26 Application - Main is invoked
+INFO  06:26:21 Application - Main is invoked
+WARN  06:26:26 {"Success":false,"Data":null}
+WARN  06:26:26 {"Success":false,"Data":null}
+WARN  06:26:30 {"Success":false,"Data":null}
+INFO  06:57:58 Application - Main is invoked
+WARN  06:58:02 {"Success":false,"Data":null}
+WARN  06:58:06 {"Success":false,"Data":null}
+INFO  03:44:25 Application - Main is invoked
+INFO  04:00:15 Application - Main is invoked
+INFO  05:23:15 Application - Main is invoked
+INFO  06:11:53 Application - Main is invoked
+INFO  07:23:03 Application - Main is invoked
+INFO  07:34:02 Application - Main is invoked
+INFO  09:06:38 Application - Main is invoked
+INFO  09:20:33 Application - Main is invoked
+INFO  09:22:12 Application - Main is invoked
+INFO  09:27:40 Application - Main is invoked
+INFO  09:33:28 Application - Main is invoked
+INFO  09:36:49 Application - Main is invoked
+INFO  09:46:38 Application - Main is invoked
+INFO  09:49:11 Application - Main is invoked
+INFO  09:52:39 Application - Main is invoked
+INFO  09:57:03 Application - Main is invoked
+INFO  10:02:43 Application - Main is invoked
+INFO  10:03:29 Application - Main is invoked
+INFO  10:04:59 Application - Main is invoked
+INFO  10:06:29 Application - Main is invoked
+INFO  10:09:26 Application - Main is invoked
+INFO  10:12:28 Application - Main is invoked
+INFO  10:13:43 Application - Main is invoked
+INFO  11:31:07 Application - Main is invoked
+INFO  11:35:12 Application - Main is invoked
+INFO  11:38:00 Application - Main is invoked
+INFO  11:39:55 Application - Main is invoked
+INFO  11:46:30 Application - Main is invoked
+INFO  11:54:59 Application - Main is invoked
+INFO  11:57:17 Application - Main is invoked
+INFO  12:00:19 Application - Main is invoked
+INFO  12:02:06 Application - Main is invoked
+INFO  12:06:29 Application - Main is invoked
+INFO  12:09:16 Application - Main is invoked
+INFO  12:36:39 Application - Main is invoked
+INFO  12:41:51 Application - Main is invoked
+INFO  12:42:58 Application - Main is invoked
+INFO  12:44:35 Application - Main is invoked
+INFO  12:46:02 Application - Main is invoked
+INFO  12:49:54 Application - Main is invoked
+INFO  03:29:25 Application - Main is invoked
+INFO  03:30:13 Application - Main is invoked
+INFO  03:40:16 Application - Main is invoked
+INFO  03:41:32 Application - Main is invoked
+INFO  03:47:04 Application - Main is invoked
+INFO  07:13:58 Application - Main is invoked
+INFO  11:49:25 Application - Main is invoked
+INFO  11:54:44 Application - Main is invoked

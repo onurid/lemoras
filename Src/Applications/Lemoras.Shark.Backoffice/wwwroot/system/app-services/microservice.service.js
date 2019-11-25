@@ -5,9 +5,9 @@
         .module('app')
         .factory('MicroserviceService', MicroserviceService);
     
-    var microserviceApiUrl = baseURL + '/api' + kernelPath + '/microservice';
+    var microserviceApiUrl = baseURL + '/api' + adminPath + '/microservice';
 
-    var microserviceModuleApiUrl = baseURL + '/api' + kernelPath + '/microservice-module';
+    var microserviceModuleApiUrl = baseURL + '/api' + adminPath + '/microservice-module';
 
     MicroserviceService.$inject = ['getjson'];
     function MicroserviceService(getjson) {

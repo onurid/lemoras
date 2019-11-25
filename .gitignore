@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/*/v15
+/*/bin
+/*/obj
+/*/*/bin
+/*/*/obj
+/*/*.log
+/*/.vagrant
+/local_machine/src/lemoras_devops
+/local_machine/.vs
+/.vs/Lemoras
+/*/*/*/obj
+/*/*/*/bin
+/*/*/*/*/bin
+/*/*/*/*/obj
+/Src/.vs/Lemoras/v15/Server/sqlite3/db.lock
+/Src/.vs
+/.vs
+/Src/Services/Security/Security.exe
+/obj
+/bin/Debug

@@ -5,10 +5,10 @@
         .module('app')
         .factory('MenuService', MenuService);
     
-    var menuApiUrl = baseURL + '/api' + kernelPath + '/menu';
-    var menuIconApiUrl = baseURL + '/api' + kernelPath + '/menu-icon';
-    var menuTypeApiUrl = baseURL + '/api' + kernelPath + '/menu-type';
-    var menuValueApiUrl = baseURL + '/api' + kernelPath + '/menu-value';
+    var menuApiUrl = baseURL + '/api' + adminPath + '/menu';
+    var menuIconApiUrl = baseURL + '/api' + adminPath + '/menu-icon';
+    var menuTypeApiUrl = baseURL + '/api' + adminPath + '/menu-type';
+    var menuValueApiUrl = baseURL + '/api' + adminPath + '/menu-value';
 
     MenuService.$inject = ['getjson'];
     function MenuService(getjson) {

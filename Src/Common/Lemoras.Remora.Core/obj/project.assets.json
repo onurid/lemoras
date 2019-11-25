@@ -240,7 +240,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "OYASAR.Framework.Core/1.0.39": {
+      "OYASAR.Framework.Core/1.0.41": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http": "1.0.0",
@@ -1333,7 +1333,6 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1391,16 +1390,16 @@
         "netstandard.library.nuspec"
       ]
     },
-    "OYASAR.Framework.Core/1.0.39": {
-      "sha512": "NODbU2iUDB+sofg9bNLKETscVzpdrF7oqQaQDnC5LIIkT74O90t4j5QpExAzGW9mtx75fZweb/vdSwiqv8pAfg==",
+    "OYASAR.Framework.Core/1.0.41": {
+      "sha512": "9H5HnFV+Lg40lLCeEOs7Kzu5l4kTNAIZApaB4CCRshvAuyLSr3SgLs5FV4hzv+ryTWb9heNtscrha1g8zzNHUg==",
       "type": "package",
-      "path": "oyasar.framework.core/1.0.39",
+      "path": "oyasar.framework.core/1.0.41",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net451/OYASAR.Framework.Core.dll",
         "lib/netstandard1.3/OYASAR.Framework.Core.dll",
-        "oyasar.framework.core.1.0.39.nupkg.sha512",
+        "oyasar.framework.core.1.0.41.nupkg.sha512",
         "oyasar.framework.core.nuspec"
       ]
     },
@@ -4559,27 +4558,27 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v1.3": [
       "NETStandard.Library >= 1.6.1",
-      "OYASAR.Framework.Core >= 1.0.39"
+      "OYASAR.Framework.Core >= 1.0.41"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\osman\\.nuget\\packages\\": {},
+    "C:\\Users\\onur.yasar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.2.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\lemoras\\Src\\Common\\Lemoras.Remora.Core\\Lemoras.Remora.Core.csproj",
+      "projectUniqueName": "C:\\Projects\\lemoras\\src\\Common\\Lemoras.Remora.Core\\Lemoras.Remora.Core.csproj",
       "projectName": "Lemoras.Remora.Core",
-      "projectPath": "C:\\Projects\\lemoras\\Src\\Common\\Lemoras.Remora.Core\\Lemoras.Remora.Core.csproj",
-      "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\lemoras\\Src\\Common\\Lemoras.Remora.Core\\obj\\",
+      "projectPath": "C:\\Projects\\lemoras\\src\\Common\\Lemoras.Remora.Core\\Lemoras.Remora.Core.csproj",
+      "packagesPath": "C:\\Users\\onur.yasar\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\lemoras\\src\\Common\\Lemoras.Remora.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\onur.yasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4610,7 +4609,7 @@
           },
           "OYASAR.Framework.Core": {
             "target": "Package",
-            "version": "[1.0.39, )"
+            "version": "[1.0.41, )"
           }
         }
       }

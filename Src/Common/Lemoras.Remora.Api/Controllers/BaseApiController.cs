@@ -1,10 +1,11 @@
-﻿using Lemoras.Remora.Core.Factory;
+﻿using Lemoras.Remora.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using OYASAR.Framework.Core.Utils;
 
 namespace Lemoras.Remora.Api.Controllers
 {
-    public abstract class BaseApiController<TService, TServiceFactory> : BaseApiController<TService> where TService : class where TServiceFactory : class, IBaseTServiceFactory
+    public abstract class BaseApiController<TService, TServiceFactory> 
+        : BaseApiController<TService> where TService : class where TServiceFactory : class, IBaseTServiceFactory
     {
         protected BaseApiController()
             : base (Invoke<TServiceFactory>.Call().GetService<TService>())

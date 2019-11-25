@@ -7,7 +7,7 @@
 
     var kernelPath = "/kernel";
 
-    var commandApiUrl = baseURL + '/api' + kernelPath + '/command';
+    var commandApiUrl = baseURL + '/api' + adminPath + '/command';
 
     CommandService.$inject = ['getjson'];
     function CommandService(getjson) {

@@ -1,10 +1,8 @@
 ﻿using System;
 using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using Lemoras.Remora.Core;
-using Lemoras.Remora.Core.Manager;
+using Lemoras.Remora.Core.Interfaces;
 using Lemoras.Remora.Core.Model;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -19,17 +17,11 @@ namespace Lemoras.Remora.Api.Manager
 {
     public class SessionManager : ISessionManager
     {
-        private readonly ICacheManager cacheManager;
-
-        public SessionManager()
-        {
-            this.cacheManager = Invoke<ICacheManager>.Call();
-        }
+        public static UserSession UserSession { get; private set; }
         
-
-        public UserSession GetCurrentSession(string token)
+        public UserSession GetCurrentSession()
         {
-            return cacheManager.Get<UserSession>(token);
+            return UserSession;
         }
         
         public static void SetSessionAsManager(IServiceCollection services)
@@ -88,19 +80,44 @@ namespace Lemoras.Remora.Api.Manager
 
                             return Task.FromCanceled(new System.Threading.CancellationToken(true));
                         }
-
                         var token = a[0].Replace("Bearer ", "");
-                        //TODO: Token decode edilerek session bilgileri alınacak.
                         
-                        //var result = mngr.GetCurrentSession(token);
+                        var handler = new JwtSecurityTokenHandler();
+                        var tokenS = handler.ReadToken(token) as JwtSecurityToken;
 
-                        //if (string.IsNullOrEmpty(result.UserName))
-                        //{
-                        //    ctx.Response.StatusCode = 401;
-                        //    return Task.FromCanceled(new System.Threading.CancellationToken(true));
-                        //}
+                        var userSession = new UserSession();
 
-                        TokenContextService.Token = token;
+                        foreach (var item in tokenS.Claims)
+                        {
+                            switch(item.Type.ToLower().Trim())
+                            {
+                                case "username":
+                                    userSession.UserName = item.Value;
+                                    break;
+                                case "userid":
+                                    userSession.UserId = item.Value;
+                                    break;
+                                case "applicationinstanceid":
+                                    userSession.ApplicationInsId = Convert.ToInt32(item.Value);
+                                    break;
+                                case "roleid":
+                                    userSession.RoleId = Convert.ToInt32(item.Value);
+                                    break;
+                                case "applicationid":
+                                    userSession.ApplicationId = Convert.ToInt32(item.Value);
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                        
+                        if (string.IsNullOrEmpty(userSession.UserName))
+                        {
+                            ctx.Response.StatusCode = 401;
+                            return Task.FromCanceled(new System.Threading.CancellationToken(true));
+                        }
+
+                        UserSession = userSession;
 
                         return Task.CompletedTask;
                     },

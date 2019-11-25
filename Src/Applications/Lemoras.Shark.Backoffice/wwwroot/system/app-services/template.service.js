@@ -5,7 +5,7 @@
         .module('app')
         .factory('TemplateService', TemplateService);
     
-    var TemplateApiUrl = baseURL + '/api' + kernelPath + '/template';
+    var TemplateApiUrl = baseURL + '/api' + adminPath + '/template';
 
     TemplateService.$inject = ['getjson'];
     function TemplateService(getjson) {
